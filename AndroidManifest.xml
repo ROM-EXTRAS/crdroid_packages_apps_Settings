@@ -3064,6 +3064,10 @@
                 android:value="com.crdroid.settings.fragments.PulseSettings" />
         </activity>
 
+	<!-- Gesture Anywhere -->
+	<activity android:name="com.crdroid.settings.gestureanywhere.GestureAnywhereBuilderActivity" />
+	<activity android:name="com.crdroid.settings.gestureanywhere.GestureAnywhereCreateGestureActivity" />
+
        <!-- System action picker -->
         <activity android:name="com.crdroid.settings.utils.ActionPickerDialogActivity"
                 android:theme="@*android:style/Theme.Material.Light.Dialog.Alert"
