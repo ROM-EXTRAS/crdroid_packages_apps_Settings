@@ -164,6 +164,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.crdroid.settings.crDroidSettingsLayout;
 import com.crdroid.settings.fragments.buttons.PowerMenuActions;
 import com.crdroid.settings.fragments.misc.GamingMode;
+import com.crdroid.settings.fragments.sound.PulseSettings;
 import com.crdroid.settings.fragments.ui.OmniJawsSettings;
 import com.crdroid.settings.fragments.ui.SmartPixels;
 import com.crdroid.settings.fragments.ui.gestureanywhere.GestureAnywhereSettings;
@@ -325,6 +326,7 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             GestureAnywhereSettings.class.getName(),
             Navigation.class.getName(),
+            PulseSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -371,5 +373,6 @@ public class SettingsGateway {
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.GestureAnywhereSettings.class.getName(),
             Settings.Navigation.class.getName(),
+            Settings.PulseSettingsActivity.class.getName(),
     };
 }
