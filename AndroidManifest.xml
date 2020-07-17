@@ -3604,5 +3604,18 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.crdroid.settings.fragments.Navigation" />
         </activity>
+
+        <!-- Navbar Pulse Settings -->
+        <activity android:name=".Settings$PulseSettingsActivity"
+            android:label="@string/pulse_settings"
+            android:taskAffinity="com.android.settings"
+            android:parentActivityName="Settings">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.PULSE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.crdroid.settings.fragments.sound.PulseSettings" />
+        </activity>
     </application>
 </manifest>
