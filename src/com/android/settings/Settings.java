@@ -247,4 +247,5 @@ public class Settings extends SettingsActivity {
     public static class SmartPixelsActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
     public static class GestureAnywhereSettings extends SettingsActivity {}
+    public static class NavbarSettingsActivity extends SettingsActivity { /* empty */ }
 }

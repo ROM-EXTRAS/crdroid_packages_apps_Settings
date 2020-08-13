@@ -167,6 +167,7 @@ import com.crdroid.settings.fragments.misc.GamingMode;
 import com.crdroid.settings.fragments.ui.OmniJawsSettings;
 import com.crdroid.settings.fragments.ui.SmartPixels;
 import com.crdroid.settings.fragments.ui.gestureanywhere.GestureAnywhereSettings;
+import com.crdroid.settings.fragments.Navigation;
 
 public class SettingsGateway {
 
@@ -323,6 +324,7 @@ public class SettingsGateway {
             SmartPixels.class.getName(),
             RunningServices.class.getName(),
             GestureAnywhereSettings.class.getName(),
+            Navigation.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -368,5 +370,6 @@ public class SettingsGateway {
             Settings.SmartPixelsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.GestureAnywhereSettings.class.getName(),
+            Settings.Navigation.class.getName(),
     };
 }
