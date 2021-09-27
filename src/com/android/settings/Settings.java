@@ -328,4 +328,5 @@ public class Settings extends SettingsActivity {
     public static class crDroidSettingsLayoutActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
     public static class SmartPixelsActivity extends SettingsActivity {}
+    public static class GestureAnywhereSettings extends SettingsActivity {}
 }
