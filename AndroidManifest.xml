@@ -3580,5 +3580,20 @@
         <service android:name="com.crdroid.settings.fragments.ui.doze.DozeService"
                 android:permission="crDroidDozeService">
         </service>
+
+        <!-- Gesture Anywhere -->
+        <activity android:name=".Settings$GestureAnywhereSettings"
+            android:label="@string/gesture_anywhere_title"
+            android:taskAffinity="com.android.settings"
+            android:parentActivityName="Settings">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.GESTURE_ANYWHERE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.crdroid.settings.fragments.ui.gestureanywhere.GestureAnywhereSettings" />
+        </activity>
+        <activity android:name="com.crdroid.settings.fragments.ui.gestureanywhere.GestureAnywhereBuilderActivity" />
+        <activity android:name="com.crdroid.settings.fragments.ui.gestureanywhere.GestureAnywhereCreateGestureActivity" />
     </application>
 </manifest>
