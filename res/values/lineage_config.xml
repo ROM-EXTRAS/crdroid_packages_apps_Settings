@@ -33,7 +33,7 @@
     <bool name="config_show_refresh_rate_controls">false</bool>
 
     <!-- Screen off FOD -->
-    <bool name="config_supportScreenOffFod">true</bool>
+    <bool name="config_supportScreenOffFod">false</bool>
 
     <!-- Battery Health -->
     <string name="config_batteryCalculatedCapacity">/sys/class/power_supply/bms/charge_full</string>
