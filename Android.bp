@@ -91,6 +91,7 @@ android_library {
         "glide",
         "faceunlock_framework",
         "SettingsGoogle-lib",
+        "SystemUISharedLib",
     ],
     manifest: "AndroidManifest.xml",
     additional_manifests: ["SettingsGoogle-Manifest.xml"],
