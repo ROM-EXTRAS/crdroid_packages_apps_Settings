@@ -89,7 +89,6 @@ android_library {
         "org.lineageos.platform.internal",
         "vendor.lineage.fastcharge-V1.0-java",
         "glide",
-        "faceunlock_framework",
         "SettingsGoogle-lib",
         "SystemUISharedLib",
     ],

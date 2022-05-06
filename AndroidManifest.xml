@@ -114,10 +114,6 @@
 
     <protected-broadcast android:name="com.android.systemui.doze.pulse" />
 
-    <!-- Face Unlock -->
-    <uses-permission android:name="com.android.settings.FACE_UNLOCK"/>
-    <permission android:name="com.android.settings.FACE_UNLOCK" android:protectionLevel="signatureOrSystem"/>
-
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
